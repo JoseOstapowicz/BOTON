@@ -3,8 +3,6 @@ body {
     margin-right: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
-    display: flex;
-    justify-content: center;
     background-color: black;
 }
 
@@ -13,12 +11,8 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: #F90716;
-}
-
-h1 {
-animation: cambiarVariosColores 4s ease-in-out infinite alternate;
+    animation: cambiarVariosColores 4s ease-in-out infinite alternate;
 }
 
 @keyframes cambiarVariosColores {
@@ -44,11 +38,12 @@ animation: cambiarVariosColores 4s ease-in-out infinite alternate;
 
 .container {
     background-image: url(img/onepiece.jpg);
-    background-size: cover;
+    background-size:cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-end;
-    width: 100%;
+    flex-direction: row;
+    width: 85%;
     margin-top: 10px;
     min-height: 500px;
     border-radius: 20px;
@@ -61,7 +56,6 @@ a {
     display: flex;
     align-items: center;
     padding: 15px 25px;
-    margin-right: 30%;
     margin-top: 10%;
     margin-bottom: 10%;
     text-decoration: none;
@@ -87,3 +81,4 @@ a {
       font-size: 1.5em;
     }
   }
+
